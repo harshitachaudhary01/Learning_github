@@ -75,8 +75,5 @@ final_vector = loaded_vectorizer.transform([final_tweet])
 final_result = loaded_model.predict(final_vector)
 print(list(final_result)[0])
 
-#new code
-print("This is testing")
-#new code2
-print("This is testing2")
+
 
